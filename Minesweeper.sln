@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper", "Minesweeper\Minesweeper.csproj", "{BD0326A5-C24A-44D2-A1EC-28EFA9065814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA43D469-6987-4ED9-B74F-6E4B0641606D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{537C3E04-78E1-4A2B-B2B3-95EEFF72064B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper.UnitTests", "Minesweeper.UnitTests\Minesweeper.UnitTests.csproj", "{A00AEA80-F3B1-43A4-849D-65CAEE22036A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD0326A5-C24A-44D2-A1EC-28EFA9065814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0326A5-C24A-44D2-A1EC-28EFA9065814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0326A5-C24A-44D2-A1EC-28EFA9065814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0326A5-C24A-44D2-A1EC-28EFA9065814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00AEA80-F3B1-43A4-849D-65CAEE22036A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00AEA80-F3B1-43A4-849D-65CAEE22036A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00AEA80-F3B1-43A4-849D-65CAEE22036A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00AEA80-F3B1-43A4-849D-65CAEE22036A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD0326A5-C24A-44D2-A1EC-28EFA9065814} = {CA43D469-6987-4ED9-B74F-6E4B0641606D}
+		{A00AEA80-F3B1-43A4-849D-65CAEE22036A} = {537C3E04-78E1-4A2B-B2B3-95EEFF72064B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EEDA498-5A5B-4DDD-B7ED-6479DA91C0E9}
+	EndGlobalSection
+EndGlobal
